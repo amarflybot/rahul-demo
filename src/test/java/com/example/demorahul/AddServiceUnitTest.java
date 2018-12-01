@@ -22,4 +22,5 @@ public class AddServiceUnitTest {
         expected.setResult(3);
         Assert.assertEquals(expected,add);
     }
+
 }
