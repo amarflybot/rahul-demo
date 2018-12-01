@@ -1,7 +1,4 @@
 node {
-    stage 'Clone the project'
-    git 'https://github.com/amarflybot/rahul-demo.git'
-
     stage("Compilation and Analysis") {
             parallel 'Compilation': {
                 sh "./mvnw clean install -DskipTests"
